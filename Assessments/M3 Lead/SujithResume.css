@@ -1,0 +1,18 @@
+.img{
+    width: 150px;
+    height: 150px; 
+    border-top: 5px solid rgb(255, 255, 255);
+    border-left: 5px solid rgb(255, 255, 255);
+    border-right: 5px solid rgb(255, 255, 255);
+    
+}
+.name{
+    color: white;
+}
+.back{
+    background-color: rgb(67, 137, 211);
+    padding-top: 40px;
+}
+.prof{
+    padding-left: 200px;
+}
