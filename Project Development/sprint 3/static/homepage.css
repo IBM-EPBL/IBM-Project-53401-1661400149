@@ -1,0 +1,58 @@
+.dklogo{
+    margin-right: 50px;
+    margin-left: 20px;
+}
+
+
+.searchbar{
+    padding: 0.375rem 0.75rem;
+    margin-right: 10px;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+
+.sreachbarbutton{
+    margin-right: 10px;
+    padding: 0.375rem 0.75rem;
+    border: 1px solid #42ba96;   
+}
+
+.sreachbarbutton:hover {
+    background-color: #42ba96;
+    color: white;
+}
+
+.itemsDisInfo{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    
+}
+
+.smartfashionheading{
+    position: absolute;
+    top: 20%;
+    left: 32%;
+    color: aliceblue;
+}
+
+.drouptext{
+    margin-left: 4%;
+}
+
+.droupbuttonstyle{
+    margin-left: 30%;
+    width: fit-content;
+}
+
+.drouptextm{
+    margin-right: 60%;
+}
+.drouptextw{
+    margin-right: 52%;
+}
+.drouptextk{
+    margin-right: 62%;
+}
+.drouptexte{
+    margin-right: 49%;
+}
