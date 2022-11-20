@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="/static/homepage.css">
+    <link rel="stylesheet"
+        href="https://image-storage-assignment-3.s3.jp-tok.cloud-object-storage.appdomain.cloud/index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <title>home</title>
+    <script>
+  window.watsonAssistantChatOptions = {
+    integrationID: "6ab36d7d-b59e-4964-bc8a-44cb324ca125", // The ID of this integration.
+    region: "au-syd", // The region your integration is hosted in.
+    serviceInstanceID: "04f4c174-6106-47a5-8a6f-71ef403473e3", // The ID of your service instance.
+    onLoad: function(instance) { instance.render(); }
+  };
+  setTimeout(function(){
+    const t=document.createElement('script');
+    t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+    document.head.appendChild(t);
+  });
+</script>
+  </head>
+  <body>
+    <div class="headerstyle">
+      <div>
+          <div>
+              <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                  <a class="navbar-brand dklogo" href="#">
+                      <img src="" width="90" height="30" class="d-inline-block align-top"
+                          alt="">
+                  </a>
+                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+                      aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarText">
+                      <ul class="navbar-nav mr-auto">
+                          <li class="nav-item active">
+                              <a class="nav-link" href="#">Home</a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link" href="#">Mens</a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link" href="#">Womans</a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link" href="#">kids</a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link" href="#">Electronics</a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link" href="#">Fashion</a>
+                          </li>
+                      </ul>
+                  </div>
+                  <div>
+                      <form class="form-inline ">
+                          <input class="searchbar" type="search" placeholder="Search">
+                          <button class="searchbar sreachbarbutton" type="submit">Search</button>
+                          <a href="/login"><button class="searchbar sreachbarbutton" type="button">login</button></a>
+                          <a href="/signup"><button class="searchbar sreachbarbutton"
+                                  type="button">Signup</button></a>
+                      </form>
+                  </div>
+              </nav>
+          </div>
+      </div>
+  </div>
+
+
+
+  </div>
+
+  <div>
+      <h3 class="smartfashionheading">Smart Fashion Recommender Application</h3>
+      <img src="/static/backimage.jpg" alt="no images" width="100%" height="200px">
+  </div>
+  <div class="row">
+      <div class="col-3">
+
+          <div class="d-flex flex-column flex-shrink-0 p-3 text-bg-light" style="height: 100%;">
+              <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none">
+                  <svg class="bi pe-none me-2" width="40" height="32">
+                      <use xlink:href="#bootstrap" />
+                  </svg>
+                  <span class="fs-4 text-black">MENU</span>
+              </a>
+              <hr>
+              <ul class="nav nav-pills flex-column mb-auto">
+                  <li class="nav-item">
+                      <a href="#" class="nav-link text-black" aria-current="page">
+                          <svg class="bi pe-none me-2" width="16" height="16">
+                              <use xlink:href="#home" />
+                          </svg>
+                          <button class="btn btn-light w-100 text-start drouptext">Home</button>
+                      </a>
+                  </li>
+                  <li>
+                      <div class="btn-group w-100 mt-3">
+                            <button type="button" class="btn btn-light dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              <span class="sr-only drouptextm">Mens</span>
+                            </button>
+                          <div class="dropdown-menu w-100">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                          </div>
+                        </div>
+                  </li>
+                  <li>
+                      <div class="btn-group w-100 mt-3">
+                          <button type="button" class="btn btn-light dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <span class="sr-only drouptextw">Womans</span>
+                          </button>
+                        <div class="dropdown-menu w-100">
+                          <a class="dropdown-item" href="#">Action</a>
+                          <a class="dropdown-item" href="#">Another action</a>
+                          <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                      </div>
+                  </li>
+                  <li>
+                      <div class="btn-group w-100 mt-3">
+                          <button type="button" class="btn btn-light dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <span class="sr-only drouptextk">Kids</span>
+                          </button>
+                        <div class="dropdown-menu w-100">
+                          <a class="dropdown-item" href="#">Action</a>
+                          <a class="dropdown-item" href="#">Another action</a>
+                          <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                      </div>
+                  </li>
+                  <li>
+                      <div class="btn-group w-100 mt-3">
+                          <button type="button" class="btn btn-light dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <span class="sr-only drouptexte">Electronic</span>
+                          </button>
+                        <div class="dropdown-menu w-100">
+                          <a class="dropdown-item" href="#">Action</a>
+                          <a class="dropdown-item" href="#">Another action</a>
+                          <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                      </div>
+                  </li>
+              </ul>
+          </div>
+
+
+      </div>
+      <div class="col-9 itemsDisInfo">
+          <div>
+
+              <!-- <a style="float:right;"
+                  href="https://api.au-syd.assistant.watson.cloud.ibm.com/instances/3b89fcd1-0be9-4167-9840-a77d7f0a9f7f">URL
+                  FOR
+                  HOSPITAL CHAT BOT</a>
+              <h1 class="ibmheading">Bucked created in IBM Object Storage</h1>
+              <h3 class="mb-5 ibmheading">Accessing the 5 public images & a css page uploaded in IBM Object Storage
+              </h3> -->
+
+
+              <div class="mt-5">
+                  <div class="row mb-5">
+                      <div class="col-4">
+                          <div class="card" style="width: 18rem">
+                              <img src="https://bucket-pawani-assignment-3.s3.us-east.cloud-object-storage.appdomain.cloud/acc%201.jpg"
+                                  class="card-img-top" alt="NO image" height="260rem">
+                              <div class="card-body">
+                                  <h5 class="card-title">Accessories Set Gold</h5>
+                                  <p class="card-text">Shipping charges are calculated based on the number of units,
+                                      distance and delivery date</p>
+                                  <a href="#" class="btn btn-primary text-center">View Product</a>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="col-4">
+                          <div class="card" style="width: 18rem;">
+                              <img src="https://bucket-pawani-assignment-3.s3.us-east.cloud-object-storage.appdomain.cloud/kid%201.jpg"
+                                  class="card-img-top" alt="NO image" height="260rem">
+                              <div class="card-body">
+                                  <h5 class="card-title">kids frock flares</h5>
+                                  <p class="card-text">Shipping charges are calculated based on the number of units,
+                                      distance and delivery date.</p>
+                                  <a href="#" class="btn btn-primary text-center">View Product</a>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="col-4">
+                          <div class="card" style="width: 18rem;">
+                              <img src="https://bucket-pawani-assignment-3.s3.us-east.cloud-object-storage.appdomain.cloud/kid%202.jpg"
+                                  class="card-img-top" alt="NO image" height="260rem">
+                              <div class="card-body">
+                                  <h5 class="card-title">kids wear frock</h5>
+                                  <p class="card-text">Shipping charges are calculated based on the number of units,
+                                      distance and delivery date.</p>
+                                  <a href="#" class="btn btn-primary text-center">View Product</a>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+
+                  <div class="row mb-5">
+                      <div class="col-4">
+                          <div class="card" style="width: 18rem;">
+                              <img src="https://bucket-pawani-assignment-3.s3.us-east.cloud-object-storage.appdomain.cloud/kid%203.jpg"
+                                  class="card-img-top" alt="NO image" height="260rem">
+                              <div class="card-body">
+                                  <h5 class="card-title">kids wear girls Knee Length Party Dress</h5>
+                                  <p class="card-text">Shipping charges are calculated based on the number of units,
+                                      distance and delivery date.</p>
+                                  <a href="#" class="btn btn-primary text-center">View Product</a>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="col-4">
+                          <div class="card" style="width: 18rem;">
+                              <img src="https://bucket-pawani-assignment-3.s3.us-east.cloud-object-storage.appdomain.cloud/men%201.jpg"
+                                  class="card-img-top" alt="NO image" height="260rem">
+                              <div class="card-body">
+                                  <h5 class="card-title">Men Slim Fit Striped Spread Collar Casual Shirt</h5>
+                                  <p class="card-text">Shipping charges are calculated based on the number of units,
+                                      distance and delivery date.</p>
+                                  <a href="#" class="btn btn-primary text-center">View Product</a>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="col-4">
+                          <div class="card" style="width: 18rem;">
+                              <img src="https://bucket-pawani-assignment-3.s3.us-east.cloud-object-storage.appdomain.cloud/men%202.jpg"
+                                  class="card-img-top" alt="NO image" height="260rem">
+                              <div class="card-body">
+                                  <h5 class="card-title">Men Slim Fit Striped Spread Collar Casual Shirt</h5>
+                                  <p class="card-text">Shipping charges are calculated based on the number of units,
+                                      distance and delivery date.</p>
+                                  <a href="#" class="btn btn-primary text-center">View Product</a>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+
+                  <div class="row mb-5">
+                      <div class="col-4">
+                          <div class="card" style="width: 18rem;">
+                              <img src="https://bucket-pawani-assignment-3.s3.us-east.cloud-object-storage.appdomain.cloud/men%203.jpg"
+                                  class="card-img-top" alt="NO image" height="260rem">
+                              <div class="card-body">
+                                  <h5 class="card-title">Men Slim Fit Striped Spread Collar Casual Shirt</h5>
+                                  <p class="card-text">Shipping charges are calculated based on the number of units,
+                                      distance and delivery date.</p>
+                                  <a href="#" class="btn btn-primary text-center">View Product</a>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="col-4">
+                          <div class="card" style="width: 18rem;">
+                              <img src="https://bucket-pawani-assignment-3.s3.us-east.cloud-object-storage.appdomain.cloud/wom%201.jpg"
+                                  class="card-img-top" alt="NO image" height="260rem">
+                              <div class="card-body">
+                                  <h5 class="card-title">women frock multi color</h5>
+                                  <p class="card-text">Shipping charges are calculated based on the number of units,
+                                      distance and delivery date.</p>
+                                  <a href="#" class="btn btn-primary text-center">View Product</a>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="col-4">
+                          <div class="card" style="width: 18rem;">
+                              <img src="https://image-storage-assignment-3.s3.jp-tok.cloud-object-storage.appdomain.cloud/girlsdress3.png"
+                                  class="card-img-top" alt="NO image" height="260rem">
+                              <div class="card-body">
+                                  <h5 class="card-title">Girls Mini/Short Dress (Blue, 3/4 Sleeve)</h5>
+                                  <p class="card-text">Shipping charges are calculated based on the number of units,
+                                      distance and delivery date.</p>
+                                  <a href="#" class="btn btn-primary text-center">View Product</a>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+
+                  <div class="row mb-5">
+                      <div class="col-4">
+                          <div class="card" style="width: 18rem;">
+                              <img src="https://bucket-pawani-assignment-3.s3.us-east.cloud-object-storage.appdomain.cloud/wom%202.jpg"
+                                  class="card-img-top" alt="NO image" height="260rem">
+                              <div class="card-body">
+                                  <h5 class="card-title">Girls Mini/Short Dress (Blue, 3/4 Sleeve)</h5>
+                                  <p class="card-text">Shipping charges are calculated based on the number of units,
+                                      distance and delivery date.</p>
+                                  <a href="#" class="btn btn-primary text-center">View Product</a>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="col-4">
+                          <div class="card" style="width: 18rem;">
+                              <img src="https://bucket-pawani-assignment-3.s3.us-east.cloud-object-storage.appdomain.cloud/wom%203.jpg"
+                                  class="card-img-top" alt="NO image" height="260rem">
+                              <div class="card-body">
+                                  <h5 class="card-title">Girls Mini/Short Dress (Blue, 3/4 Sleeve)</h5>
+                                  <p class="card-text">Shipping charges are calculated based on the number of units,
+                                      distance and delivery date.</p>
+                                  <a href="#" class="btn btn-primary text-center">View Product</a>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="col-4">
+                          <div class="card" style="width: 18rem;">
+                              <img src="https://bucket-pawani-assignment-3.s3.us-east.cloud-object-storage.appdomain.cloud/kid%201.jpg"
+                                  class="card-img-top" alt="NO image" height="260rem">
+                              <div class="card-body">
+                                  <h5 class="card-title">kids wear</h5>
+                                  <p class="card-text">Shipping charges are calculated based on the number of units,
+                                      distance and delivery date.</p>
+                                  <a href="#" class="btn btn-primary text-center">View Product</a>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+    <br/>
+    <br/>
+    <br/>
+    {% for row in files %}
+         <div style="border: 1px solid #EFEFEF;margin:10px;">
+            <h3>Filename : {{row}} </h3>
+            <img src="https://hospital-flask.s3.jp-tok.cloud-object-storage.appdomain.cloud/{{row}}" width="150px"></td>
+         </div>
+      {% endfor %}
+  </body>
+</html>
